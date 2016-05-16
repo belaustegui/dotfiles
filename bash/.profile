@@ -23,6 +23,6 @@ if [ -d "~/.composer" ]; then
 fi
 
 # add heroku toolbelt to PATH
-if [ - d "/usr/local/heroku" ]; then
+if [ -d "/usr/local/heroku" ]; then
   PATH="/usr/local/heroku/bin:$PATH"
 fi
