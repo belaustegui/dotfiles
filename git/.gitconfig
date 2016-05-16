@@ -1,0 +1,10 @@
+[user]
+	name = belaustegui
+	email = cristian.alvb@gmail.com
+[core]
+	excludesfile = ~/.global-gitignore
+	editor = vim
+[merge]
+	ff = false
+[branch]
+	autosetuprebase = always
