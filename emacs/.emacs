@@ -61,9 +61,7 @@
   ("\\.erb\\'" . web-mode)
   :ensure t)
 (use-package yaml-mode :ensure t)
+(use-package markdown-mode :ensure t)
 (use-package flycheck :ensure t)
 (use-package elixir-mode :ensure t)
 (global-flycheck-mode)
-
-;; Use wombat theme
-(load-theme 'wombat)
