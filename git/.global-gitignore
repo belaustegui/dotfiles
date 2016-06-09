@@ -1,2 +1,3 @@
 .tool-versions
 vendor/bundle
+.bundle
