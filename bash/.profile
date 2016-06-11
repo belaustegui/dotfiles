@@ -26,3 +26,9 @@ fi
 if [ -d "/usr/local/heroku" ]; then
   PATH="/usr/local/heroku/bin:$PATH"
 fi
+
+# Ubuntu make installation of Ubuntu Make binary symlink
+if [ -d "$HOME/.local/share/umake/bin" ]; then
+  PATH="$HOME/.local/share/umake/bin:$PATH"
+fi
+
