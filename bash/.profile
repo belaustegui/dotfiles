@@ -13,13 +13,13 @@ if [ -n "$BASH_VERSION" ]; then
 fi
 
 # set PATH so it includes user's private bin if it exists
-if [ -d "$HOME/bin" ] ; then
-  PATH="$HOME/bin:$PATH"
+if [ -d "$HOME/Bin" ] ; then
+  PATH="$HOME/Bin:$PATH"
 fi
 
 # add composer to PATH
-if [ -d "~/.composer" ]; then
-  PATH="$HOME/.composer/vendor/bin:$PATH" # Composer dependencies
+if [ -d "$HOME/.config/composer" ]; then
+  PATH="$HOME/.config/composer/vendor/bin:$PATH" # Composer dependencies
 fi
 
 # add heroku toolbelt to PATH
@@ -31,4 +31,3 @@ fi
 if [ -d "$HOME/.local/share/umake/bin" ]; then
   PATH="$HOME/.local/share/umake/bin:$PATH"
 fi
-
