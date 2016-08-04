@@ -65,6 +65,8 @@
 (use-package flycheck :ensure t)
 (use-package elixir-mode :ensure t)
 (use-package editorconfig :ensure t)
+(use-package solarized-theme :ensure t)
 (global-flycheck-mode)
 
-(load-theme 'solarized-dark t)
+(if (display-graphic-p)
+    (load-theme 'solarized-dark t))
