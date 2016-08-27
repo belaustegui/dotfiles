@@ -35,8 +35,8 @@
 (global-set-key (kbd "RET") 'newline-and-indent)
 
 ;; Enable IDO for fast navigation
-(setq ido-enable-flex-matching t)
-(setq ido-everywhere t)
+(setq-default ido-enable-flex-matching t)
+(setq-default ido-everywhere t)
 (ido-mode 1)
 
 ;; Delete trailing whitespace on save
@@ -47,28 +47,32 @@
 
 ;; Required packages
 (require 'use-package) ;; We depend on use-package to do this magic
-(use-package drupal-mode
-  :ensure t)
+;; Auto install all used pacakges without having to specify manually
+;; the `:ensure t` sentence for each.
+(setq-default use-package-always-ensure t)
+(use-package exec-path-from-shell
+  :init
+  (setq-default exec-path-from-shell-check-startup-files nil)
+  (exec-path-from-shell-initialize))
+(use-package drupal-mode)
 (use-package web-mode
   :init
-  (setq web-mode-markup-indent-offset 2)
-  (setq web-mode-css-indent-offset 2)
-  (setq web-mode-code-indent-offset 2)
-  (setq web-mode-attr-indent-offset 2)
-  (setq web-mode-style-padding 2)
-  (setq web-mode-script-padding 2)
-  (setq web-mode-block-padding 2)
+  (setq-default web-mode-markup-indent-offset 2)
+  (setq-default web-mode-css-indent-offset 2)
+  (setq-default web-mode-code-indent-offset 2)
+  (setq-default web-mode-attr-indent-offset 2)
+  (setq-default web-mode-style-padding 2)
+  (setq-default web-mode-script-padding 2)
+  (setq-default web-mode-block-padding 2)
   :mode
   ("\\.tpl\\.php\\'" . web-mode)
-  ("\\.erb\\'" . web-mode)
-  :ensure t)
-(use-package yaml-mode :ensure t)
-(use-package markdown-mode :ensure t)
-(use-package flycheck :ensure t)
-(use-package elixir-mode :ensure t)
-(use-package editorconfig :ensure t)
-(use-package solarized-theme :ensure t)
-(global-flycheck-mode)
-
-(if (display-graphic-p)
-    (load-theme 'solarized-dark t))
+  ("\\.erb\\'" . web-mode))
+(use-package yaml-mode)
+(use-package markdown-mode)
+(use-package flycheck
+  :init (global-flycheck-mode))
+(use-package elixir-mode)
+(use-package editorconfig)
+(use-package solarized-theme)
+;;  :config
+;;  (if (display-graphic-p) (load-theme 'solarized-dark t)))
