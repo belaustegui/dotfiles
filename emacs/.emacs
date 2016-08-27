@@ -12,6 +12,8 @@
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 (scroll-bar-mode -1)
+;; Enable parens and brackets matching
+(show-paren-mode 1)
 
 ;; Disable startup message
 (setq-default inhibit-startup-message t)
