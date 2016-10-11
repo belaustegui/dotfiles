@@ -1,3 +1,4 @@
 .tool-versions
 vendor/bundle
 .bundle
+.phpbrewrc
