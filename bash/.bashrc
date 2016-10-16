@@ -93,8 +93,3 @@ if [ -d ~/.asdf ]; then
   . $HOME/.asdf/asdf.sh
   . $HOME/.asdf/completions/asdf.bash
 fi
-
-# Use PHPBrew
-if [ -d ~/.phpbrew ]; then
-  source ~/.phpbrew/bashrc
-fi
