@@ -1,0 +1,26 @@
+{
+  "editor.fontFamily": "'Dejavu Sans Mono'",
+  "editor.fontSize": 12,
+  "editor.rulers": [80, 120],
+  "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+  "editor.tabSize": 2,
+  "editor.wrappingColumn": 0,
+  "editor.acceptSuggestionOnEnter": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/_build": true
+  },
+  "files.associations": {
+    "*.module": "php"
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": {
+    "**/.git/objects": true,
+    "**/node_modules": true,
+    "**/deps": true
+  },
+  "explorer.openEditors.visible": 0
+}
