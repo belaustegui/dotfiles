@@ -73,6 +73,5 @@
   :init (global-flycheck-mode))
 (use-package elixir-mode)
 (use-package editorconfig)
-(use-package solarized-theme)
-;;  :config
-;;  (if (display-graphic-p) (load-theme 'solarized-dark t)))
+(use-package material-theme
+  :config (if (display-graphic-p) (load-theme 'material t)))
