@@ -3,7 +3,7 @@
 	email = cristian.alvb@gmail.com
 [core]
 	excludesfile = ~/.global-gitignore
-	editor = vim
+	editor = emacs -nw
 [merge]
 	ff = false
 [branch]
