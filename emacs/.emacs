@@ -71,7 +71,7 @@
 (use-package markdown-mode)
 (use-package flycheck
   :init (global-flycheck-mode))
-(use-package elixir-mode)
+(use-package alchemist)
 (use-package editorconfig)
 (use-package material-theme
   :config (if (display-graphic-p) (load-theme 'material t)))
