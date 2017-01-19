@@ -21,3 +21,8 @@ fi
 if [ -f "$HOME/.bashrc" ]; then
   . "$HOME/.bashrc"
 fi
+
+# Include Ubuntu Make if it is installed
+if [ -d "$HOME/.local/share/umake" ]; then
+  PATH="$HOME/.local/share/umake/bin:$PATH""
+fi
