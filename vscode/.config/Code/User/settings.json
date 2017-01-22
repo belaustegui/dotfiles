@@ -1,7 +1,7 @@
 // Place your settings in this file to overwrite the default settings
 {
     // Editor
-    "editor.fontFamily": "'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "editor.fontFamily": "'Dejavu Sans Mono', monospace",
     "editor.fontSize": 13,
     "editor.rulers": [80],
     "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
