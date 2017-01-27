@@ -2,27 +2,14 @@
 # This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
 # exists.
 
-# set PATH so it includes user's private bin if it exists
-if [ -d "$HOME/Bin" ] ; then
-  PATH="$HOME/Bin:$PATH"
-fi
-
-# add composer packages to PATH
-if [ -d "$HOME/.config/composer" ]; then
-  PATH="$HOME/.config/composer/vendor/bin:$PATH"
-fi
-
-# add heroku toolbelt to PATH
-if [ -d "/usr/local/heroku" ]; then
-  PATH="/usr/local/heroku/bin:$PATH"
-fi
+# Global composer packages
+PATH="$HOME/.config/composer/vendor/bin:$PATH"
+# Heroku toolbelt
+PATH="/usr/local/heroku/bin:$PATH"
+# Custom user binaries
+PATH="$HOME/bin:$PATH"
 
 # include .bashrc if it exists
 if [ -f "$HOME/.bashrc" ]; then
   . "$HOME/.bashrc"
-fi
-
-# Include Ubuntu Make if it is installed
-if [ -d "$HOME/.local/share/umake" ]; then
-  PATH="$HOME/.local/share/umake/bin:$PATH"
 fi
