@@ -98,3 +98,6 @@ fi
 if [ -e ~/.phpbrew/bashrc ]; then
  source ~/.phpbrew/bashrc
 fi
+
+# Add kubernetes autocompletion
+source <(kubectl completion bash)
