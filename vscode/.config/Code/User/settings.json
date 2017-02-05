@@ -35,5 +35,11 @@
         "**/node_modules": true,
         "**/bower_components": true,
         "**/deps/**": true
-    }
-}
+    },
+
+    // Workbench
+    "workbench.welcome.enabled": false,
+
+    // Window
+    "window.menuBarVisibility": "toggle"
+  }
