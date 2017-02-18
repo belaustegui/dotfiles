@@ -100,4 +100,8 @@ if [ -e ~/.phpbrew/bashrc ]; then
 fi
 
 # Add kubernetes autocompletion
-source <(kubectl completion bash)
+# Using `hash` to check if the command exists before running it.
+# (Thanks to: http://stackoverflow.com/a/677212
+if [ hash kubectl 2>/dev/null ]; then
+  source <(kubectl completion bash)
+fi
