@@ -6,7 +6,7 @@
     "editor.rulers": [80],
     "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
     "editor.tabSize": 2,
-    "editor.wrappingColumn": 0,
+    "editor.wordWrap": "on",
     "editor.acceptSuggestionOnEnter": false,
 
     // Files
