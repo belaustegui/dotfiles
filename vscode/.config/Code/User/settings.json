@@ -41,5 +41,6 @@
     "workbench.welcome.enabled": false,
 
     // Window
-    "window.menuBarVisibility": "toggle"
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "Default High Contrast"
   }
