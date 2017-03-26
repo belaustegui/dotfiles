@@ -43,5 +43,6 @@
     // Window
     "window.menuBarVisibility": "toggle",
     "workbench.colorTheme": "Monokai",
+    "workbench.activityBar.visible": false,
     "workbench.iconTheme": "vs-minimal"
   }
