@@ -42,5 +42,6 @@
 
     // Window
     "window.menuBarVisibility": "toggle",
-    "workbench.colorTheme": "Default High Contrast"
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "vs-minimal"
   }
