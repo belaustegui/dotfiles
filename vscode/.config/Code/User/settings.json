@@ -1,15 +1,13 @@
-// Place your settings in this file to overwrite the default settings
 {
-    // Editor
-    "editor.fontFamily": "'Dejavu Sans Mono', monospace",
+    "editor.fontFamily": "'Iosevka Term Medium', monospace",
     "editor.fontSize": 13,
     "editor.rulers": [80],
     "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
     "editor.tabSize": 2,
     "editor.wordWrap": "on",
+    "editor.wrappingIndent": "indent",
     "editor.acceptSuggestionOnEnter": false,
 
-    // Files
     "files.exclude": {
       "**/.git": true,
       "**/.svn": true,
@@ -17,32 +15,34 @@
       "**/.DS_Store": true,
       "**/_build": true
     },
-    "files.associations": {},
+    "files.associations": {
+        "*.theme": "php",
+        "*.module": "php",
+        "*.inc": "php"
+    },
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-    "files.autoSave": "onWindowChange",
+    "files.autoSave": "onFocusChange",
     "files.watcherExclude": {
         "**/.git/objects/**": true,
-        "**/node_modules/**": true,
-        "**/deps/**": true
+        "**/node_modules/**": true
     },
 
-    // Explorer
     "explorer.openEditors.visible": 0,
 
-    // Search
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
         "**/deps/**": true
     },
 
-    // Workbench
     "workbench.welcome.enabled": false,
 
     // Window
     "window.menuBarVisibility": "toggle",
     "workbench.colorTheme": "Monokai",
+    "window.zoomLevel": 0,
+    "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": false,
     "workbench.iconTheme": "vs-minimal"
   }
