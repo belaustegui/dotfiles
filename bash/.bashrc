@@ -94,11 +94,6 @@ if [ -d ~/.asdf ]; then
   . $HOME/.asdf/completions/asdf.bash
 fi
 
-# Use phpbrew version manager
-if [ -e ~/.phpbrew/bashrc ]; then
- source ~/.phpbrew/bashrc
-fi
-
 # Add kubernetes autocompletion
 # Using `hash` to check if the command exists before running it.
 # (Thanks to: http://stackoverflow.com/a/677212
