@@ -7,7 +7,7 @@ PATH="$HOME/.config/composer/vendor/bin:$PATH"
 # Heroku toolbelt
 PATH="/usr/local/heroku/bin:$PATH"
 # Custom user binaries
-PATH="$HOME/bin:$PATH"
+PATH="$HOME/Bin:$PATH"
 
 # include .bashrc if it exists
 if [ -f "$HOME/.bashrc" ]; then
