@@ -88,13 +88,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Use asdf version manager
+# Enable ASDF autocompletion
 if [ -d ~/.asdf ]; then
-  . $HOME/.asdf/asdf.sh
   . $HOME/.asdf/completions/asdf.bash
 fi
 
-# Add kubernetes autocompletion
+# Enable kubernetes autocompletion
 # Using `hash` to check if the command exists before running it.
 # (Thanks to: http://stackoverflow.com/a/677212
 if [ hash kubectl 2>/dev/null ]; then

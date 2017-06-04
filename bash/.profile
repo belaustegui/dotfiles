@@ -6,10 +6,7 @@
 PATH="$HOME/.config/composer/vendor/bin:$PATH"
 # Heroku toolbelt
 PATH="/usr/local/heroku/bin:$PATH"
+# ASDF version manager
+PATH="$HOME/.asdf/bin:$HOME/.asdf/shims:$PATH"
 # Custom user binaries
 PATH="$HOME/Bin:$PATH"
-
-# include .bashrc if it exists
-if [ -f "$HOME/.bashrc" ]; then
-  . "$HOME/.bashrc"
-fi
