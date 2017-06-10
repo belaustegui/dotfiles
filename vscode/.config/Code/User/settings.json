@@ -49,5 +49,5 @@
     "window.zoomLevel": 0,
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": false,
-    "workbench.iconTheme": "vs-minimal"
+    "workbench.iconTheme": "vs-seti"
   }
