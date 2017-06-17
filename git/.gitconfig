@@ -2,7 +2,7 @@
 	name = belaustegui
 	email = cristian.alvb@gmail.com
 [core]
-	excludesfile = ~/.global-gitignore
+	excludesfile = ~/.config/git/.global-gitignore
 	editor = vim
 [merge]
 	ff = false
