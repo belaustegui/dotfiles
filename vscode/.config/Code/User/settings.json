@@ -1,6 +1,6 @@
 {
     // Editor
-    "editor.fontFamily": "monospace",
+    "editor.fontFamily": "'Dejavu Sans Mono', monospace",
     "editor.fontSize": 13,
     "editor.rulers": [80],
     "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
