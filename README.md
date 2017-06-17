@@ -10,7 +10,7 @@ tool for setting up the dotfiles.
 
 The first step is to clone this repository in your $HOME folder:
 
-    git clone https://github.com/belaustegui/dotfiles.git ~/.dotfiles
+    git clone --recursive https://github.com/belaustegui/dotfiles.git ~/Dotfiles
 
 ### 1. Simulate changes
 
@@ -18,13 +18,13 @@ The first step is to run GNU Stow in simulation mode. This would warn about all
 possible errors without making any changes in the filesystem. You can do this
 with the command:
 
-    cd ~/.dotfiles
+    cd ~/Dotfiles
     stow -n bash # For bash configuration
     stow -n git # For git configuration
 
 We may get some warning messages like the following one.
 
-    cd ~/.dotfiles
+    cd ~/Dotfiles
     stow -n git
     WARNING! stowing git would cause conflicts:
       * existing target is neither a link nor a directory: .gitconfig
@@ -40,12 +40,12 @@ to rename it:
 
 After all conflicting files have been renamed, we should not get any warnings:
 
-    cd ~/.dotfiles
+    cd ~/Dotfiles
     stow -n git
     WARNING: in simulation mode so not modifying filesystem.
 
 We can now write the changes to disk removing the `-n` modifier:
 
-    cd ~/.dotfiles
+    cd ~/Dotfiles
     stow bash
     stow git
