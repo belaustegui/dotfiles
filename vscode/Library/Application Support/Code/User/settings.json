@@ -6,7 +6,7 @@
     "editor.tabSize": 2,
     "editor.wordWrap": "on",
     "editor.wrappingIndent": "indent",
-    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.acceptSuggestionOnEnter": "off",
 
     // Files
     "files.exclude": {
@@ -43,10 +43,9 @@
     "workbench.welcome.enabled": false,
 
     // Window
-    "window.menuBarVisibility": "toggle",
     "workbench.colorTheme": "Monokai",
     "window.zoomLevel": 0,
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": false,
     "workbench.iconTheme": "vs-seti"
-  }
+}
