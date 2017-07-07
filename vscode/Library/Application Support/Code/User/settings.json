@@ -7,6 +7,7 @@
     "editor.wordWrap": "on",
     "editor.wrappingIndent": "indent",
     "editor.acceptSuggestionOnEnter": "off",
+    "editor.minimap.enabled": false,
 
     // Files
     "files.exclude": {
@@ -23,7 +24,7 @@
     },
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-    "files.autoSave": "onFocusChange",
+    "files.autoSave": "off",
     "files.watcherExclude": {
         "**/.git/objects/**": true,
         "**/node_modules/**": true
