@@ -1,13 +1,14 @@
 {
     // Editor
     "editor.fontSize": 12,
-    "editor.rulers": [80],
-    "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "editor.rulers": [100],
     "editor.tabSize": 2,
     "editor.wordWrap": "on",
     "editor.wrappingIndent": "indent",
     "editor.acceptSuggestionOnEnter": "off",
     "editor.minimap.enabled": false,
+    "editor.autoClosingBrackets": false,
+    "editor.renderWhitespace": "all",
 
     // Files
     "files.exclude": {
@@ -15,38 +16,44 @@
       "**/.svn": true,
       "**/.hg": true,
       "**/.DS_Store": true,
-      "**/_build": true
-    },
-    "files.associations": {
-        "*.theme": "php",
-        "*.module": "php",
-        "*.inc": "php"
+      "**/_build": true,
+      "**/tmp": true
     },
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "files.autoSave": "off",
     "files.watcherExclude": {
         "**/.git/objects/**": true,
-        "**/node_modules/**": true
-    },
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/deps": true,
+        "**/build": true,
+        "**/log": true
+      },
 
     // Explorer
     "explorer.openEditors.visible": 0,
+    "explorer.autoReveal": false,
 
     // Search
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
-        "**/deps/**": true
+        "**/deps/**": true,
+        "**/log": true,
+        "**/bin": true,
+        "**/_build": true,
+        "**/priv/static": true
     },
 
     // Workbench
-    "workbench.welcome.enabled": false,
-
-    // Window
-    "workbench.colorTheme": "Monokai",
-    "window.zoomLevel": 0,
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": false,
-    "workbench.iconTheme": "vs-seti"
+    "workbench.iconTheme": "vs-seti",
+    "workbench.colorTheme": "Tomorrow",
+    "workbench.editor.labelFormat": "medium",
+    "workbench.panel.location": "bottom",
+
+    // Windows
+    "window.restoreWindows": "all"
 }
