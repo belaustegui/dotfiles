@@ -3,4 +3,4 @@ vendor/bundle
 .bundle
 .phpbrewrc
 .DS_Store
-.mix-tasks
+.mix_tasks
