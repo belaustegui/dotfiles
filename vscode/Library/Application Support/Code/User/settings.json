@@ -60,4 +60,7 @@
     // Windows
     "window.restoreWindows": "all",
     "workbench.startupEditor": "newUntitledFile",
+    // Elixir LS
+    "elixirLS.dialyzerEnabled": false,
+    "elixirLS.mixEnv": "dev",
 }
