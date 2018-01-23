@@ -7,9 +7,9 @@
     "editor.wrappingIndent": "indent",
     "editor.acceptSuggestionOnEnter": "off",
     "editor.minimap.enabled": false,
-    "editor.autoClosingBrackets": false,
     "editor.renderWhitespace": "all",
-
+    "editor.trimAutoWhitespace": true,
+    "editor.formatOnSave": true,
     // Files
     "files.exclude": {
       "**/.git": true,
@@ -20,6 +20,7 @@
       "**/tmp": true
     },
     "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
     "files.insertFinalNewline": true,
     "files.autoSave": "off",
     "files.watcherExclude": {
