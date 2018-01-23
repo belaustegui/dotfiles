@@ -58,5 +58,6 @@
     "workbench.panel.location": "bottom",
 
     // Windows
-    "window.restoreWindows": "all"
+    "window.restoreWindows": "all",
+    "workbench.startupEditor": "newUntitledFile",
 }
