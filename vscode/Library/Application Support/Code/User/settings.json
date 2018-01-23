@@ -27,6 +27,7 @@
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,
         "**/node_modules/**": true,
+        "**/vendor/**": true,
         "**/deps": true,
         "**/build": true,
         "**/log": true
@@ -40,6 +41,7 @@
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
+        "**/vendor/**": true,
         "**/deps/**": true,
         "**/log": true,
         "**/bin": true,
