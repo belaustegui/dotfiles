@@ -49,7 +49,7 @@
     // Workbench
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": false,
-    "workbench.iconTheme": "vs-seti",
+    "workbench.iconTheme": "vs-minimal",
     "workbench.colorTheme": "Monokai",
     "workbench.editor.labelFormat": "medium",
     "workbench.panel.location": "bottom",
