@@ -1,7 +1,9 @@
 {
     // Editor
     "editor.fontSize": 12,
-    "editor.rulers": [100],
+    "editor.rulers": [
+        100
+    ],
     "editor.tabSize": 2,
     "editor.wordWrap": "on",
     "editor.wrappingIndent": "indent",
@@ -12,12 +14,12 @@
     "editor.formatOnSave": true,
     // Files
     "files.exclude": {
-      "**/.git": true,
-      "**/.svn": true,
-      "**/.hg": true,
-      "**/.DS_Store": true,
-      "**/_build": true,
-      "**/tmp": true
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/_build": true,
+        "**/tmp": true
     },
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
@@ -31,12 +33,10 @@
         "**/deps": true,
         "**/build": true,
         "**/log": true
-      },
-
+    },
     // Explorer
     "explorer.openEditors.visible": 0,
     "explorer.autoReveal": false,
-
     // Search
     "search.exclude": {
         "**/node_modules": true,
@@ -48,14 +48,12 @@
         "**/_build": true,
         "**/priv/static": true
     },
-
     // Workbench
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": false,
     "workbench.iconTheme": "vs-minimal",
     "workbench.colorTheme": "Monokai",
     "workbench.editor.labelFormat": "medium",
-
     // Windows
     "window.restoreWindows": "all",
     "workbench.startupEditor": "newUntitledFile",
