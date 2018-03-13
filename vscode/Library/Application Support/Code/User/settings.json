@@ -1,6 +1,6 @@
 {
     // Editor
-    "editor.fontSize": 12,
+    "editor.fontSize": 13,
     "editor.rulers": [
         100
     ],
@@ -26,10 +26,9 @@
     "files.insertFinalNewline": true,
     "files.autoSave": "off",
     "files.watcherExclude": {
-        "**/.git/objects/**": true,
-        "**/.git/subtree-cache/**": true,
-        "**/node_modules/**": true,
-        "**/vendor/**": true,
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/vendor": true,
         "**/deps": true,
         "**/build": true,
         "**/log": true
@@ -41,8 +40,8 @@
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
-        "**/vendor/**": true,
-        "**/deps/**": true,
+        "**/vendor": true,
+        "**/deps": true,
         "**/log": true,
         "**/bin": true,
         "**/_build": true,
@@ -52,12 +51,36 @@
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": false,
     "workbench.iconTheme": "vs-minimal",
-    "workbench.colorTheme": "Monokai",
     "workbench.editor.labelFormat": "medium",
     // Windows
     "window.restoreWindows": "all",
     "workbench.startupEditor": "newUntitledFile",
     // Elixir LS
     "elixirLS.dialyzerEnabled": false,
-    "elixirLS.mixEnv": "dev",
+    "window.zoomLevel": 0,
+    "workbench.statusBar.feedback.visible": false,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "workbench.colorTheme": "Default Light+",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.hovers.enabled": false,
+    "gitlens.recentChanges.highlight.locations": [
+        "overview",
+        "line",
+        "gutter"
+    ],
+    // Emmet
+    "emmet.includeLanguages": {
+        "HTML (Eex)": "html"
+    },
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": true,
+        "suppressResultsExplorerNotice": false
+    },
+    "gitlens.keymap": "alternate"
 }
