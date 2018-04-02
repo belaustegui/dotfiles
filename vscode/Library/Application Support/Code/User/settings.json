@@ -1,6 +1,6 @@
 {
     // Editor
-    "editor.fontSize": 13,
+    "editor.fontSize": 12,
     "editor.rulers": [
         100
     ],
@@ -50,7 +50,6 @@
     // Workbench
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": false,
-    "workbench.iconTheme": "vs-minimal",
     "workbench.editor.labelFormat": "medium",
     // Windows
     "window.restoreWindows": "all",
