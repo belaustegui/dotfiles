@@ -1,6 +1,7 @@
 {
     // Editor
-    "editor.fontSize": 12,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
     "editor.rulers": [
         100
     ],
@@ -12,74 +13,34 @@
     "editor.renderWhitespace": "all",
     "editor.trimAutoWhitespace": true,
     "editor.formatOnSave": true,
-    // Files
-    "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/.DS_Store": true,
-        "**/_build": true,
-        "**/tmp": true
-    },
+    "editor.cursorStyle": "block",
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
     "files.insertFinalNewline": true,
     "files.autoSave": "off",
     "files.watcherExclude": {
-        "**/.git": true,
-        "**/node_modules": true,
-        "**/vendor": true,
-        "**/deps": true,
-        "**/build": true,
-        "**/log": true
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/_build/**": true,
+        "**/deps/**": true,
     },
     // Explorer
     "explorer.openEditors.visible": 0,
     "explorer.autoReveal": false,
-    // Search
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/bower_components": true,
-        "**/vendor": true,
-        "**/deps": true,
-        "**/log": true,
-        "**/bin": true,
-        "**/_build": true,
-        "**/priv/static": true
-    },
     // Workbench
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": false,
     "workbench.editor.labelFormat": "medium",
-    // Windows
-    "window.restoreWindows": "all",
+    "workbench.statusBar.feedback.visible": false,
     "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "Solarized Light",
+    // Window
+    "window.restoreWindows": "all",
     // Elixir LS
     "elixirLS.dialyzerEnabled": false,
-    "window.zoomLevel": 0,
-    "workbench.statusBar.feedback.visible": false,
-    "gitlens.currentLine.enabled": false,
-    "gitlens.hovers.currentLine.over": "line",
-    "workbench.colorTheme": "Default Light+",
-    "gitlens.codeLens.enabled": false,
-    "gitlens.hovers.enabled": false,
-    "gitlens.recentChanges.highlight.locations": [
-        "overview",
-        "line",
-        "gutter"
-    ],
     // Emmet
     "emmet.includeLanguages": {
         "HTML (Eex)": "html"
-    },
-    "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": true,
-        "suppressResultsExplorerNotice": false
-    },
-    "gitlens.keymap": "alternate"
+    }
 }
