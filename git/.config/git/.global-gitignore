@@ -1,6 +1,13 @@
 .tool-versions
+.DS_Store
+
+# Ruby projects
 vendor/bundle
 .bundle
-.phpbrewrc
-.DS_Store
+
+# Elixir projects
 .mix_tasks
+.elixir_ls
+
+# Visual Studio Code workspace configurations
+.vscode
