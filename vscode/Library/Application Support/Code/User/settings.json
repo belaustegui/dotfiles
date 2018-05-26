@@ -1,29 +1,37 @@
 {
     // Editor
-    "editor.fontSize": 14,
-    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
-    "editor.rulers": [
-        100
-    ],
+    "editor.fontSize": 15,
+    "editor.fontFamily": "'Iosevka Term', Menlo, Monaco, 'Courier New', monospace",
+    "editor.rulers": [100],
     "editor.tabSize": 2,
-    "editor.wordWrap": "on",
-    "editor.wrappingIndent": "indent",
-    "editor.acceptSuggestionOnEnter": "off",
+    "editor.cursorStyle": "underline",
+    "editor.wordWrap": "on", // Wrap lines to the viewport width
+    "editor.wrappingIndent": "indent", // Indent automatically wrapped lines
+    "editor.acceptSuggestionOnEnter": "off", // Only accept suggestions with "tab"
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "all",
     "editor.trimAutoWhitespace": true,
-    "editor.formatOnSave": true,
-    "editor.cursorStyle": "block",
+    // Files
     "files.trimTrailingWhitespace": true,
     "files.trimFinalNewlines": true,
     "files.insertFinalNewline": true,
     "files.autoSave": "off",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        ".elixir_ls": true, // Elixir Language Server build artifacts
+        ".vscode": true, // Workspace settings
+        "_build": true // Elixir build artifacts
+      },
     "files.watcherExclude": {
-        "**/.git/objects/**": true,
-        "**/.git/subtree-cache/**": true,
-        "**/node_modules/**": true,
-        "**/_build/**": true,
-        "**/deps/**": true,
+        "**/.git/**": true,
+        "**/node_modules/**": true, // NodeJS dependencies
+        "**/deps/**": true, // Elixir dependencies
+        "**/_build/**": true, // Elixir build artifacts
+        "**/.elixir_ls": true, // Elixir Language Server build artifacts
     },
     // Explorer
     "explorer.openEditors.visible": 0,
@@ -34,13 +42,21 @@
     "workbench.editor.labelFormat": "medium",
     "workbench.statusBar.feedback.visible": false,
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Solarized Light",
+    "workbench.colorTheme": "Solarized Dark",
     // Window
     "window.restoreWindows": "all",
+    // Integrated terminal
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.fontSize": 15,
     // Elixir LS
     "elixirLS.dialyzerEnabled": false,
     // Emmet
     "emmet.includeLanguages": {
         "HTML (Eex)": "html"
-    }
+    },
+    // Elixir configurations
+    "[elixir]": {
+        "editor.formatOnSave": true, // Enable automatic formatting
+    },
 }
