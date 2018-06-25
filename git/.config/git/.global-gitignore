@@ -11,3 +11,4 @@ vendor/bundle
 
 # Visual Studio Code workspace configurations
 .vscode
+.vs
