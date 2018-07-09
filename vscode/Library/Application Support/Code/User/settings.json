@@ -4,12 +4,11 @@
     "editor.fontFamily": "'Iosevka Term', Menlo, Monaco, 'Courier New', monospace",
     "editor.rulers": [100],
     "editor.tabSize": 2,
-    "editor.cursorStyle": "underline",
+    "editor.cursorStyle": "block",
     "editor.wordWrap": "on", // Wrap lines to the viewport width
     "editor.wrappingIndent": "indent", // Indent automatically wrapped lines
     "editor.acceptSuggestionOnEnter": "off", // Only accept suggestions with "tab"
     "editor.minimap.enabled": false,
-    "editor.renderWhitespace": "all",
     "editor.trimAutoWhitespace": true,
     // Files
     "files.trimTrailingWhitespace": true,
@@ -25,7 +24,7 @@
         ".elixir_ls": true, // Elixir Language Server build artifacts
         ".vscode": true, // Workspace settings
         "_build": true // Elixir build artifacts
-      },
+    },
     "files.watcherExclude": {
         "**/.git/**": true,
         "**/node_modules/**": true, // NodeJS dependencies
@@ -47,16 +46,19 @@
     "window.restoreWindows": "all",
     // Integrated terminal
     "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.cursorStyle": "block",
     "terminal.integrated.fontSize": 15,
-    // Elixir LS
-    "elixirLS.dialyzerEnabled": false,
     // Emmet
     "emmet.includeLanguages": {
         "HTML (Eex)": "html"
     },
     // Elixir configurations
     "[elixir]": {
+        "editor.formatOnType": false,
         "editor.formatOnSave": true, // Enable automatic formatting
     },
+    "elixirLS.dialyzerEnabled": false,
+    "elixirLS.mixEnv": "dev",
+    "elixirLS.fetchDeps": false,
+    "terminal.integrated.rendererType": "dom"
 }
