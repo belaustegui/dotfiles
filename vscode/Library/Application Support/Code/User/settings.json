@@ -41,7 +41,7 @@
     "workbench.editor.labelFormat": "medium",
     "workbench.statusBar.feedback.visible": false,
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Quiet Light",
+    "workbench.colorTheme": "Solarized Dark",
     // Window
     "window.restoreWindows": "all",
     // Integrated terminal
@@ -51,6 +51,8 @@
     // Emmet
     "emmet.includeLanguages": {"HTML (Eex)": "html"},
     // Elixir configurations
+    "elixirLS.dialyzerEnabled": false,
+    "elixirLS.fetchDeps": false,
     "[elixir]": {
         "editor.renderIndentGuides": false,
         "editor.formatOnType": false,
@@ -61,4 +63,5 @@
     "gitlens.codeLens.enabled": false,
     "gitlens.currentLine.enabled": false,
     "gitlens.hovers.currentLine.over": "line",
+    "window.zoomLevel": 0,
 }
