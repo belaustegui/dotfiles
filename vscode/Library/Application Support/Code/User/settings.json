@@ -1,10 +1,14 @@
 {
+    // Breadcrumbs
+    "breadcrumbs.enabled": false,
     // Editor
     "editor.fontSize": 14,
-    "editor.fontFamily": "Menlo, Monaco, 'Dejavu Sans Mono', 'Courier New', monospace",
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Dejavu Sans Mono', 'Courier New', monospace",
+    "editor.fontLigatures": true,
     "editor.rulers": [100],
     "editor.tabSize": 2,
     "editor.cursorStyle": "block",
+    "editor.renderControlCharacters": false,
     "editor.wordWrap": "on", // Wrap lines to the viewport width
     "editor.wrappingIndent": "indent", // Indent automatically wrapped lines
     "editor.acceptSuggestionOnEnter": "off", // Only accept suggestions with "tab"
@@ -35,15 +39,19 @@
     // Explorer
     "explorer.openEditors.visible": 0,
     "explorer.autoReveal": false,
+    //Search
+    "search.location": "panel",
+
     // Workbench
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": false,
     "workbench.editor.labelFormat": "medium",
     "workbench.statusBar.feedback.visible": false,
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorTheme": "Quiet Light",
     // Window
     "window.restoreWindows": "all",
+    "window.zoomLevel": 0,
     // Integrated terminal
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "block",
@@ -51,8 +59,6 @@
     // Emmet
     "emmet.includeLanguages": {"HTML (Eex)": "html"},
     // Elixir configurations
-    "elixirLS.dialyzerEnabled": false,
-    "elixirLS.fetchDeps": false,
     "[elixir]": {
         "editor.renderIndentGuides": false,
         "editor.formatOnType": false,
@@ -62,6 +68,5 @@
     "gitlens.advanced.messages": {"suppressShowKeyBindingsNotice": true},
     "gitlens.codeLens.enabled": false,
     "gitlens.currentLine.enabled": false,
-    "gitlens.hovers.currentLine.over": "line",
-    "window.zoomLevel": 0,
+    "gitlens.hovers.currentLine.over": "line"
 }
