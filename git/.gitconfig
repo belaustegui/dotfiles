@@ -8,3 +8,5 @@
 	ff = false
 [branch]
 	autosetuprebase = always
+[pager]
+	branch = false
