@@ -51,7 +51,7 @@ ZSH_CUSTOM=$HOME/.config/oh-my-zsh-custom
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(asdf brew docker docker-compose git mix mix-fast)
+plugins=(asdf brew docker git mix)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -83,4 +83,3 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export PATH="/usr/local/opt/postgresql@9.5/bin:$PATH"
