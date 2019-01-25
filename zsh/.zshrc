@@ -51,7 +51,7 @@ ZSH_CUSTOM=$HOME/.config/oh-my-zsh-custom
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(asdf brew docker git mix)
+plugins=(asdf docker git mix)
 
 source $ZSH/oh-my-zsh.sh
 
