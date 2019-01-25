@@ -1,0 +1,61 @@
+{
+  // Editor
+  "editor.rulers": [80, 100],
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.acceptSuggestionOnEnter": "off",
+​
+  // Workbench
+  "workbench.settings.editor": "json",
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.activityBar.visible": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.commandPalette.preserveInput": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.labelFormat": "medium",
+  "workbench.enableExperiments": false,
+  "workbench.quickOpen.preserveInput": true,
+​
+  // Files
+  "files.insertFinalNewline": true,
+  "files.hotExit": "onExitAndWindowClose",
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/_build": true,
+    "**/.vscode": true
+  },
+  // Explorer
+  "explorer.openEditors.visible": 0,
+  "explorer.autoReveal": false,
+​
+  // Search
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/deps": true,
+    "**/uploads": true
+  },
+​
+  // Emmet
+  "emmet.includeLanguages": {
+    "HTML (Eex)": "html",
+    "html-eex": "html"
+  },
+​
+  // Elixir
+  "[elixir]": {
+    "editor.formatOnSave": true,
+  },
+  // JSON
+  "json.format.enable": false,
+
+  // Diff editor
+  "diffEditor.renderSideBySide": true,
+}
