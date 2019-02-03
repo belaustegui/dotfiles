@@ -5,6 +5,11 @@
   "editor.wordWrap": "on",
   "editor.tabSize": 2,
   "editor.acceptSuggestionOnEnter": "off",
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'Ubuntu Sans Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+
+  // Terminal
+  "terminal.integrated.fontSize": 14,
 ​
   // Workbench
   "workbench.settings.editor": "json",
@@ -51,11 +56,20 @@
 ​
   // Elixir
   "[elixir]": {
-    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.wordBasedSuggestions": false,
+    "editor.formatOnType": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.trimAutoWhitespace": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "editor.formatOnSave": true
   },
+  "elixirLS.dialyzerEnabled": false,
+  "elixirLS.suggestSpecs": false,
+
   // JSON
   "json.format.enable": false,
-
-  // Diff editor
-  "diffEditor.renderSideBySide": true,
+  "diffEditor.renderSideBySide": false
 }
