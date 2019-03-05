@@ -4,5 +4,10 @@
     "key": "ctrl+7",
     "command": "editor.action.commentLine",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "workbench.action.terminal.clear",
+    "when": "terminalFocus"
   }
 ]
