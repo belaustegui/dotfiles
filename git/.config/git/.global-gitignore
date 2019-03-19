@@ -12,3 +12,6 @@ vendor/bundle
 # Visual Studio Code workspace configurations
 .vscode
 .vs
+
+# Temporal directory for saving temporal garbage in projects
+tmp/
