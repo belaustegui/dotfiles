@@ -5,12 +5,16 @@
   "editor.wordWrap": "on",
   "editor.tabSize": 2,
   "editor.acceptSuggestionOnEnter": "off",
-  "editor.fontSize": 14,
-  "editor.fontFamily": "'Ubuntu Sans Mono', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Source Code Pro, monospace",
+  "editor.cursorStyle": "block",
 
   // Terminal
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 15,
 ​
+  // Window
+  "window.titleBarStyle": "custom",
+
   // Workbench
   "workbench.settings.editor": "json",
   "workbench.statusBar.feedback.visible": false,
@@ -21,6 +25,7 @@
   "workbench.editor.labelFormat": "medium",
   "workbench.enableExperiments": false,
   "workbench.quickOpen.preserveInput": true,
+  "workbench.colorTheme": "Monokai",
 ​
   // Files
   "files.insertFinalNewline": true,
@@ -73,5 +78,11 @@
 
   // JSON
   "json.format.enable": false,
-  "diffEditor.renderSideBySide": false
+
+  // Diff editor
+  "diffEditor.renderSideBySide": false,
+
+  // GitLens
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
 }
