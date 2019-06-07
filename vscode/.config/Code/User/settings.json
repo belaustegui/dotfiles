@@ -6,11 +6,14 @@
   "editor.tabSize": 2,
   "editor.acceptSuggestionOnEnter": "off",
   "editor.fontSize": 15,
-  "editor.fontFamily": "Source Code Pro, monospace",
+  "editor.fontFamily": "Fira Code, Fira Mono, Ubuntu mono, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "500",
   "editor.cursorStyle": "block",
 
   // Terminal
   "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontWeight": "500",
 ​
   // Window
   "window.titleBarStyle": "custom",
@@ -81,8 +84,5 @@
 
   // Diff editor
   "diffEditor.renderSideBySide": false,
-
-  // GitLens
-  "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line",
+  "window.zoomLevel": 0,
 }
