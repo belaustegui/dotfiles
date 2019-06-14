@@ -11,6 +11,8 @@
   "editor.fontWeight": "500",
   "editor.cursorStyle": "block",
 
+  "breadcrumbs.enabled": false,
+
   // Terminal
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.fontWeight": "500",
