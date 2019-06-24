@@ -60,8 +60,7 @@
 ​
   // Emmet
   "emmet.includeLanguages": {
-    "HTML (Eex)": "html",
-    "html-eex": "html"
+    "HTML (EEx)": "html",
   },
 ​
   // Elixir
