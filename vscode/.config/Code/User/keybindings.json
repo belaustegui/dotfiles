@@ -9,5 +9,9 @@
     "key": "ctrl+shift+k",
     "command": "workbench.action.terminal.clear",
     "when": "terminalFocus"
+  },
+  {
+    "key": "alt+s",
+    "command": "workbench.action.files.saveAll"
   }
 ]
