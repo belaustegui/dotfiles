@@ -5,17 +5,15 @@
   "editor.wordWrap": "on",
   "editor.tabSize": 2,
   "editor.acceptSuggestionOnEnter": "off",
-  "editor.fontSize": 15,
-  "editor.fontFamily": "Fira Code, Fira Mono, Ubuntu mono, monospace",
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.fontWeight": "500",
   "editor.cursorStyle": "block",
 
   "breadcrumbs.enabled": false,
 
   // Terminal
-  "terminal.integrated.fontSize": 15,
-  "terminal.integrated.fontWeight": "500",
+  "terminal.integrated.fontSize": 14,
 ​
   // Window
   "window.titleBarStyle": "custom",
@@ -86,4 +84,6 @@
   // Diff editor
   "diffEditor.renderSideBySide": false,
   "window.zoomLevel": 0,
+  "explorer.confirmDelete": false,
+  "liveshare.audio.joinCallBehavior": "accept",
 }
