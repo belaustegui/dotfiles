@@ -3,7 +3,6 @@
 
 # Ruby projects
 vendor/bundle
-.bundle
 
 # Elixir projects
 .mix_tasks
