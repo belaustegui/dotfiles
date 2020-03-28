@@ -6,21 +6,22 @@
   "editor.tabSize": 2,
   "editor.acceptSuggestionOnEnter": "off",
   "editor.fontSize": 14,
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Mono",
+  "editor.fontWeight": "500",
   "editor.cursorStyle": "block",
 
+  // Breadcrumbs
   "breadcrumbs.enabled": false,
 
   // Terminal
   "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "500",
 ​
   // Window
   "window.titleBarStyle": "custom",
 
   // Workbench
   "workbench.settings.editor": "json",
-  "workbench.statusBar.feedback.visible": false,
   "workbench.activityBar.visible": false,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.commandPalette.preserveInput": true,
@@ -52,13 +53,15 @@
   "search.exclude": {
     "**/node_modules": true,
     "**/bower_components": true,
-    "**/deps": true,
-    "**/uploads": true
+    // "**/deps": true,
+    "**/uploads": true,
+    "vendor/bundle": true
   },
 ​
   // Emmet
   "emmet.includeLanguages": {
     "HTML (EEx)": "html",
+    "erb": "html"
   },
 ​
   // Elixir
@@ -78,6 +81,12 @@
   "elixirLS.suggestSpecs": false,
   "elixirLS.fetchDeps": false,
 
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": false,
+    "files.trimTrailingWhitespace": false
+  },
+
   // JSON
   "json.format.enable": false,
 
@@ -86,4 +95,5 @@
   "window.zoomLevel": 0,
   "explorer.confirmDelete": false,
   "liveshare.audio.joinCallBehavior": "accept",
+  "explorer.confirmDragAndDrop": false,
 }
