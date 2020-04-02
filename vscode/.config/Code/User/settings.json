@@ -45,6 +45,11 @@
     "**/_build": true,
     "**/.vscode": true
   },
+
+  "files.associations": {
+    "*.html.leex": "HTML (EEx)"
+  },
+
   // Explorer
   "explorer.openEditors.visible": 0,
   "explorer.autoReveal": false,
