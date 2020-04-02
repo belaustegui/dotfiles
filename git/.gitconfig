@@ -12,3 +12,5 @@
 	branch = false
 [diff]
 	algorithm = histogram
+[protocol]
+	version = 2
