@@ -6,7 +6,7 @@
   "editor.tabSize": 2,
   "editor.acceptSuggestionOnEnter": "off",
   "editor.fontSize": 14,
-  "editor.fontFamily": "Fira mono, Ubuntu mono, Monospace",
+  "editor.fontFamily": "Cascadia Code, Iosevka, Fira mono, Ubuntu mono, Monospace",
   "editor.fontWeight": "500",
   "editor.cursorStyle": "block",
 
@@ -47,7 +47,6 @@
     "**/.elixir_ls": true
   },
   "files.associations": {
-    "*.html.leex": "HTML (EEx)",
     "*.module": "php",
     "*.theme": "php"
   },
@@ -67,7 +66,7 @@
 ​
   // Emmet
   "emmet.includeLanguages": {
-    "HTML (EEx)": "html",
+    "html-eex": "html",
     "erb": "html"
   },
 ​
@@ -98,5 +97,12 @@
   "json.format.enable": false,
 
   // Diff editor
-  "diffEditor.renderSideBySide": false
+  "diffEditor.renderSideBySide": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.defaultDateStyle": "absolute",
+
+  "[git-commit]": {
+    "editor.rulers": [50, 72]
+  },
+  "window.zoomLevel": 0
 }
