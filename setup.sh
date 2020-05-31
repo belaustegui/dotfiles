@@ -1,6 +1,5 @@
 # Utilities
-sudo apt install -y \
-  stow zsh awscli vim imagemagick gnome-tweaks docker.io docker-compose code google-chrome-stable
+sudo apt install -y stow zsh awscli vim imagemagick gnome-tweaks docker.io docker-compose code google-chrome-stable chrome-gnome-shell gnome-shell-extensions simplescreenrecorder
 
 # Set ZSH as default shell
 chsh -s /usr/bin/zsh
@@ -8,7 +7,7 @@ chsh -s /usr/bin/zsh
 sudo gpasswd -a crbelaus docker
 
 # Development dependencies
-sudo apt install -y automake autoconf libncurses5-dev libssl-dev inotify-tools
+sudo apt install -y automake autoconf libncurses5-dev libssl-dev inotify-tools libpq-dev unzip
 
 # Setup flathub.org for flatpaks
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -17,10 +16,8 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 flatpak install -y flathub \
   com.bitwarden.desktop \
   com.calibre_ebook.calibre \
-  com.github.alainm23.planner \
   com.slack.Slack \
   com.spotify.Client \
-  com.uploadedlobster.peek \
   de.haeckerfelix.Fragments \
   io.dbeaver.DBeaverCommunity \
   org.gimp.GIMP \
@@ -38,3 +35,6 @@ echo -e '. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
 asdf plugin-add nodejs && asdf plugin-add erlang && asdf plugin-add elixir
 # Import NodeJS release keys (https://github.com/asdf-vm/asdf-nodejs)
 bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
+
+mix local.hex --force
+mix local.rebar --force
